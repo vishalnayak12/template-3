@@ -39,7 +39,8 @@ div#navbarTogglerDemo02 {
 .my:hover{
     color: #519f10;
 }
-button:hover{
+
+.subs:hover{
     background-color: #519f10;
 }
 
@@ -455,7 +456,7 @@ input.email {
 
 
 
-button {
+.subs {
     margin-left: -6px;
     padding: 17px;
     background: black;
@@ -472,8 +473,8 @@ a.company-name {
 }
 
 .jeera:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transform: scale(1.5);
     transform: scale(1.2);
    
 }
@@ -485,11 +486,12 @@ a.company-name {
 .half {
     overflow: hidden;
 }
-
-
+vl.potas{
+    display: none;
+}
 
 @media (max-width:540px) {
-    button {
+    .subs {
         margin-left: -6px;
         padding: 12px;
         border: none;
